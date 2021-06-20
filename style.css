@@ -1,0 +1,64 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    padding:0;
+    margin: 0;
+    text-decoration:none;
+  }
+
+body {
+    margin: 0;
+    background-color: #FFFDE4;
+  }
+
+#header {
+    top : 40px;
+    position: fixed;
+    width:100%;
+    background-color: #005AA7;
+  }
+
+#pildock {
+    color:#FFFDE4;
+}   
+
+#circle {
+    float: left;
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    background:#FFC107;
+    color: #005AA7;
+    font-size: 30px;
+    text-align: center;
+    line-height: 200px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    box-shadow: 3px 3px 3px gray;
+}
+
+#bottombar {
+    text-align: center;
+    background-color: #033968;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    bottom:0;
+    color: #FFFDE4;
+}
+
+#menubar {
+  background-color: #033968;
+  top : 0;
+  position: fixed;
+  width: 100%;
+  height: 40px;
+}
+
+.bar {
+  width: 35px;
+  height: 3px;
+  background-color: white;
+  margin: 7px;
+}
